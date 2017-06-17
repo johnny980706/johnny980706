@@ -186,6 +186,25 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
     <script src="./js/jquery-3.2.1.js"></script>
     <script src="./js/index.js"></script>
+    <script language="JavaScript">
+        $('button').on('click', function() {
+            var o = $('#chinese').val()
+            var b = $('#math').val()
+            var c = $('#science').val()
+            var d = $('#english').val()
+            var e = $('#society').val()
+            var f = $('#composition').val()
+            o = Number(o)
+            b = Number(b)
+            c = Number(c)
+            d = Number(d)
+            e = Number(e)
+            f = Number(f)
+            ff = f * 2
+            score = o + b + c + d + e + ff
+            $('#result').val(score)
+        })
+    </script>
 </body>
 
 </html>
