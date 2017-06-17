@@ -1,0 +1,36 @@
+img {
+    width: 200px；
+}
+
+a {
+    color: black;
+    background-color: #62f6f5;
+    box-shadow: 3px -2px 6px #bef834;
+    padding: 5px;
+    margin-bottom: 30px;
+}
+
+div.btn {
+    height: 40px
+}
+
+div.jumbotron {
+    /* 設定背景顏色 */
+    background-color: #e3884a;
+    /* 設定文字顏色 */
+    color: white;
+}
+
+div.an {
+    padding: 5px;
+    margin-bottom: 10px;
+    margin-left: 950px;
+}
+
+div.picture {
+    margin-left: 0px;
+}
+
+div.name {
+    margin-left: -65px
+}
